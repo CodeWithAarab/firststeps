@@ -1,0 +1,47 @@
+body{
+    background: darkblue;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    background-color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+li{
+    float: left;
+    border-right: 1px solid yellow;
+
+}
+ 
+.nav{
+    display: block;
+    padding: 0 35px;
+    color: yellow;
+    text-decoration: none;
+}
+.nav:hover{
+    background-color: whitesmoke;
+}
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.lol{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sec2{
+    background-color: white;
+    height: 462px;
+}
+.active a{
+    background-color: whitesmoke;
+}
